@@ -1,16 +1,25 @@
 /*Ændre til AspIT billeder og tekst*/
+.hero
+{
+    background-image: 
+      linear-gradient(to top, #0F7D3F, rgba(0,0,0, 0.8)), url(../../img/hero.jpg);
+      height: 95vh;
+      background-size: cover;
+      background-position: top;
+    
+}
+
+
+
 
 .header 
 {
+    
     height: 95vh;
-    background-image: linear-gradient(
-        to right bottom,
-         rgba($color-primary-light, 0.8),
-          rgba($color-primary-dark, 0.8)),
-           url(Desktop\V2testexam\hero.jpeg);
-           //Hentes billedet?
-    background-size: cover; 
+    background-size: cover;
     background-position: top;
+     
+    
     position: relative;
 
     clip-path: polygon(0 0, 100% 0, 100%  75vh, 0 100% );

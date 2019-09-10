@@ -1,6 +1,32 @@
+@charset "UTF-8";
 /*Lav det til AspIT istedet for Natours*/
 body {
   background-color: green;
-  box-sizing: border-box; 
-  
-}
+  box-sizing: border-box; }
+
+/*Ændre til AspIT billeder og tekst*/
+.hero {
+  background-image: linear-gradient(to top, #0F7D3F, rgba(0, 0, 0, 0.8)), url(../../img/hero.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: top; }
+
+.header {
+  height: 95vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  .header__logobox {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__logo {
+    height: 3.5rem; }
+  .header__textbox {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*i forhold til selve elementet*/
+    text-align: center; }
